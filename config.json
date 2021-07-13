@@ -1,0 +1,30 @@
+{
+    "Springer": {
+        "url": "https://link.springer.com/search",
+        "parameters": {
+            "query": "",
+            "facet-content-type": "\"Article\"",
+            "showAll": "false"
+        }
+    },
+    "ScienceDirect": {
+        "url": "https://www.sciencedirect.com/search",
+        "parameters": {
+            "qs": ""
+        }
+    },
+    "ACMDL": {
+        "url": "https://dl.acm.org/action/doSearch?",
+        "parameters": {
+            "AllField": ""
+        }
+    },
+    "IEEE": {
+        "url": "https://ieeexplore.ieee.org/search/searchresult.jsp",
+        "parameters": {
+            "queryText": "",
+            "newsearch": "true",
+            "highlight": "true"
+        }
+    }
+}
