@@ -1,0 +1,5 @@
+APIs:
+ScienceDirect - API incompleta. Precisa de permissão para fazer uma consulta melhor
+IEEE - API boa
+Springer - Existe API, verificar melhor
+ACMDL - Não existe API

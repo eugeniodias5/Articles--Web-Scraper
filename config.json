@@ -1,22 +1,29 @@
 {
+    "max_pages": 6,
     "Springer": {
-        "url": "https://link.springer.com/search",
+        "url": "https://link.springer.com/search/csv",
         "parameters": {
-            "query": "",
-            "facet-content-type": "\"Article\"",
-            "showAll": "false"
+            "date-facet-mode": "between",
+            "showAll": "false",
+            "facet-content-type": "%22Article%22",
+            "query": ""
         }
     },
     "ScienceDirect": {
         "url": "https://www.sciencedirect.com/search",
         "parameters": {
-            "qs": ""
+            "qs": "",
+            "articleTypes": "FLA",
+            "lastSelectedFacet": "articleTypes"
         }
     },
     "ACMDL": {
-        "url": "https://dl.acm.org/action/doSearch?",
+        "url": "https://dl.acm.org/action/doSearch",
         "parameters": {
-            "AllField": ""
+            "AllField": "",
+            "startPage": "0",
+            "pageSize": "50",
+            "ContentItemType": "research-article"
         }
     },
     "IEEE": {
@@ -24,7 +31,10 @@
         "parameters": {
             "queryText": "",
             "newsearch": "true",
-            "highlight": "true"
+            "highlight": "true",
+            "openAccess": "true",
+            "rowsPerPage": "100",
+            "pageNumber": "1"
         }
     }
 }
